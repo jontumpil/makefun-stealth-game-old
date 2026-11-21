@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shadowstep — a stealth game</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #07070f; height: 100%; }
+  body { display: flex; align-items: center; justify-content: center;
+         font-family: Georgia, 'Times New Roman', serif; }
+  #wrap { width: 960px; max-width: 100vw; }
+  canvas { display: block; width: 100%; background: #0b0b18;
+           border: 1px solid #2c2c4a; border-radius: 6px;
+           box-shadow: 0 12px 60px rgba(0,0,0,.8); }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <canvas id="game" width="960" height="600"></canvas>
+</div>
+<script src="src/audio.js"></script>
+<script src="src/main.js"></script>
+</body>
+</html>
